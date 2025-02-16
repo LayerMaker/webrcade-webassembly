@@ -9,7 +9,7 @@
           "description": "SNES Game",
           "type": "snes",
           "props": {
-            "rom": "http://192.168.1.250:8080/rom/invictus.sfc"
+            "rom": "https://layermaker.github.io/webrcade-webassembly/rom/invictus.sfc"
           }
         }
       ]
