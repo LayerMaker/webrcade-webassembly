@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRcade SNES Launcher</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>WebRcade SNES Emulator</h1>
+        <div id="instructions">
+            <p>This launcher will open the WebRcade SNES emulator in a new window.</p>
+            <p>Features:</p>
+            <ul>
+                <li>Full USB gamepad support</li>
+                <li>Optimized SNES emulation</li>
+                <li>Save state support</li>
+            </ul>
+            <p>Instructions:</p>
+            <ol>
+                <li>Click the Launch button below</li>
+                <li>Connect your USB gamepad if not already connected</li>
+                <li>Use the WebRcade interface to load your ROM</li>
+            </ol>
+        </div>
+        <button id="launch-btn" onclick="launchWebrcade()">Launch WebRcade SNES</button>
+        <div id="gamepad-status">
+            Gamepad Status: Checking...
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
